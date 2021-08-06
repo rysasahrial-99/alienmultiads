@@ -1,0 +1,4 @@
+com/aliendroid/samplealienads/BuildConfig.java
+ com.aliendroid.samplealienads.BuildConfig
+com/aliendroid/samplealienads/MainActivity.java
+ com.aliendroid.samplealienads.MainActivity

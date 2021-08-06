@@ -1,0 +1,598 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aliendroid.samplealienads"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:12:5-81
+13-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:12:22-78
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:12:5-76
+14-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:12:22-73
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:14:5-81
+15-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:14:22-78
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:15:5-110
+16-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:15:22-107
+17
+18    <queries>
+18-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:17:5-21:15
+19        <intent>
+19-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:18:9-20:18
+20            <action android:name="android.intent.action.MAIN" />
+20-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:18:17-69
+20-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:18:25-66
+21        </intent>
+22        <!-- For browser content -->
+23        <intent>
+23-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:30:9-36:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:31:13-65
+24-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:31:21-62
+25
+26            <category android:name="android.intent.category.BROWSABLE" />
+26-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:33:13-74
+26-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:33:23-71
+27
+28            <data android:scheme="https" />
+28-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:35:13-44
+28-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:35:19-41
+29        </intent> <!-- End of browser content -->
+30        <!-- For CustomTabsService -->
+31        <intent>
+31-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:39:9-41:18
+32            <action android:name="android.support.customtabs.action.CustomTabsService" />
+32-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:40:13-90
+32-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:40:21-87
+33        </intent>
+34
+35        <package android:name="com.facebook.katana" />
+35-->[com.facebook.android:audience-network-sdk:6.5.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d4bc8e802121d3cc4b595b9dee82c7aa/audience-network-sdk-6.5.1/AndroidManifest.xml:12:9-55
+35-->[com.facebook.android:audience-network-sdk:6.5.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d4bc8e802121d3cc4b595b9dee82c7aa/audience-network-sdk-6.5.1/AndroidManifest.xml:12:18-52
+36
+37        <intent>
+37-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:25:9-27:18
+38            <action android:name="android.media.browse.MediaBrowserService" />
+38-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:26:13-79
+38-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:26:21-76
+39        </intent>
+40        <intent>
+40-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:28:9-30:18
+41            <action android:name="androidx.media2.session.MediaSessionService" />
+41-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:29:13-82
+41-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:29:21-79
+42        </intent>
+43        <intent>
+43-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:31:9-33:18
+44            <action android:name="androidx.media2.session.MediaLibraryService" />
+44-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:32:13-82
+44-->[androidx.media2:media2-session:1.1.3] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0ffc5cbeca6de07ba635e3cdcd55084d/media2-session-1.1.3/AndroidManifest.xml:32:21-79
+45        </intent>
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.WAKE_LOCK" />
+48-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/6355c7397f2af827b0c9a0be1d77f42a/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:5-68
+48-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/6355c7397f2af827b0c9a0be1d77f42a/play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:22-65
+49
+50    <application
+50-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:7:5-31:19
+51        android:name="androidx.multidex.MultiDexApplication"
+52        android:allowBackup="true"
+52-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:8:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.5.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d258d222dc508be7c0328b7b2d747354/core-1.5.0/AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:icon="@mipmap/ic_launcher"
+55-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:9:9-43
+56        android:label="@string/app_name"
+56-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:10:9-41
+57        android:roundIcon="@mipmap/ic_launcher_round"
+57-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:11:9-54
+58        android:supportsRtl="true"
+58-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:12:9-35
+59        android:testOnly="true"
+60        android:theme="@style/Theme.SampleAlienAds" >
+60-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:13:9-52
+61        <activity
+61-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:14:9-22:20
+62            android:name="com.aliendroid.samplealienads.MainActivity"
+62-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:14:19-47
+63            android:exported="true"
+63-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:16:13-36
+64            android:screenOrientation="portrait" >
+64-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:15:13-49
+65            <intent-filter>
+65-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:17:13-21:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:18:17-69
+66-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:18:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:20:17-77
+68-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:20:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <meta-data
+72-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:23:9-25:49
+73            android:name="com.google.android.gms.ads.APPLICATION_ID"
+73-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:24:13-69
+74            android:value="@string/admobappid" />
+74-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:25:13-47
+75        <meta-data
+75-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:27:9-29:56
+76            android:name="applovin.sdk.key"
+76-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:28:13-44
+77            android:value="@string/sdk_key_applovin" />
+77-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/app/src/main/AndroidManifest.xml:29:13-53
+78
+79        <activity
+79-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-17:50
+80            android:name="com.ironsource.sdk.controller.ControllerActivity"
+80-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-76
+81            android:configChanges="orientation|screenSize"
+81-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-59
+82            android:hardwareAccelerated="true" />
+82-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
+83        <activity
+83-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-22:64
+84            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+84-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-78
+85            android:configChanges="orientation|screenSize"
+85-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-59
+86            android:hardwareAccelerated="true"
+86-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-47
+87            android:theme="@android:style/Theme.Translucent" />
+87-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-61
+88        <activity
+88-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:64
+89            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+89-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-73
+90            android:configChanges="orientation|screenSize"
+90-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-59
+91            android:hardwareAccelerated="true"
+91-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-47
+92            android:theme="@android:style/Theme.Translucent" />
+92-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-61
+93
+94        <provider
+94-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-31:82
+95            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
+95-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-80
+96            android:authorities="com.aliendroid.samplealienads.IronsourceLifecycleProvider" />
+96-->[:AlienAds] /home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-79
+97
+98        <activity
+98-->[com.mopub:mopub-sdk-fullscreen:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/582f2185349cd22f2db92d252a24505d/mopub-sdk-fullscreen-5.18.0/AndroidManifest.xml:12:9-15:59
+99            android:name="com.mopub.mobileads.MoPubFullscreenActivity"
+99-->[com.mopub:mopub-sdk-fullscreen:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/582f2185349cd22f2db92d252a24505d/mopub-sdk-fullscreen-5.18.0/AndroidManifest.xml:13:13-71
+100            android:configChanges="keyboardHidden|orientation|screenSize"
+100-->[com.mopub:mopub-sdk-fullscreen:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/582f2185349cd22f2db92d252a24505d/mopub-sdk-fullscreen-5.18.0/AndroidManifest.xml:14:13-74
+101            android:theme="@style/MoPubFullscreenTheme" />
+101-->[com.mopub:mopub-sdk-fullscreen:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/582f2185349cd22f2db92d252a24505d/mopub-sdk-fullscreen-5.18.0/AndroidManifest.xml:15:13-56
+102        <activity
+102-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:16:9-19:59
+103            android:name="com.mopub.common.MoPubBrowser"
+103-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:17:13-57
+104            android:configChanges="keyboardHidden|orientation|screenSize"
+104-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:18:13-74
+105            android:theme="@style/MoPubFullscreenTheme" />
+105-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:19:13-56
+106        <activity
+106-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:20:9-23:59
+107            android:name="com.mopub.common.privacy.ConsentDialogActivity"
+107-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:21:13-74
+108            android:configChanges="keyboardHidden|orientation|screenSize"
+108-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:22:13-74
+109            android:theme="@style/MoPubFullscreenTheme" />
+109-->[com.mopub:mopub-sdk-base:5.18.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/856df2655b8e26e550051b667bbe0c56/mopub-sdk-base-5.18.0/AndroidManifest.xml:23:13-56
+110        <activity
+110-->[com.mopub.mediation:facebookaudiencenetwork:6.5.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/95bf59f3f80f0273e6d29e95b2d43aff/facebookaudiencenetwork-6.5.1.0/AndroidManifest.xml:11:9-13:50
+111            android:name="com.facebook.ads.AudienceNetworkActivity"
+111-->[com.mopub.mediation:facebookaudiencenetwork:6.5.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/95bf59f3f80f0273e6d29e95b2d43aff/facebookaudiencenetwork-6.5.1.0/AndroidManifest.xml:12:13-68
+112            android:configChanges="keyboardHidden|orientation|screenSize"
+112-->[com.ironsource.adapters:facebookadapter:4.3.28] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0d91db1ca499333c4c7c7a8d76e8fc0e/facebookadapter-4.3.28/AndroidManifest.xml:17:13-74
+113            android:exported="false"
+113-->[com.ironsource.adapters:facebookadapter:4.3.28] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0d91db1ca499333c4c7c7a8d76e8fc0e/facebookadapter-4.3.28/AndroidManifest.xml:18:13-37
+114            android:hardwareAccelerated="true"
+114-->[com.mopub.mediation:facebookaudiencenetwork:6.5.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/95bf59f3f80f0273e6d29e95b2d43aff/facebookaudiencenetwork-6.5.1.0/AndroidManifest.xml:13:13-47
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.ironsource.adapters:facebookadapter:4.3.28] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/0d91db1ca499333c4c7c7a8d76e8fc0e/facebookadapter-4.3.28/AndroidManifest.xml:19:13-72
+116
+117        <provider
+117-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:15:9-20:39
+118            android:name="com.applovin.sdk.AppLovinInitProvider"
+118-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:16:13-65
+119            android:authorities="com.aliendroid.samplealienads.applovincontentprovider"
+119-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:17:13-75
+120            android:exported="false"
+120-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:18:13-37
+121            android:grantUriPermissions="true"
+121-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:19:13-47
+122            android:initOrder="101" /> <!-- Init order is 101 so we're before Firebase/Google which uses 100 -->
+122-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:20:13-36
+123        <activity
+123-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:22:9-26:50
+124            android:name="com.applovin.adview.AppLovinInterstitialActivity"
+124-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:23:13-76
+125            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
+125-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:24:13-98
+126            android:hardwareAccelerated="true"
+126-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:25:13-47
+127            android:screenOrientation="behind" />
+127-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:26:13-47
+128        <activity
+128-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:27:9-33:50
+129            android:name="com.applovin.adview.AppLovinFullscreenActivity"
+129-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:28:13-74
+130            android:configChanges="keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+130-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:29:13-129
+131            android:exported="false"
+131-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:30:13-37
+132            android:hardwareAccelerated="true"
+132-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:31:13-47
+133            android:launchMode="singleTop"
+133-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:32:13-43
+134            android:screenOrientation="behind" />
+134-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:33:13-47
+135        <activity
+135-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:34:9-36:84
+136            android:name="com.applovin.sdk.AppLovinWebViewActivity"
+136-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:35:13-68
+137            android:configChanges="keyboardHidden|orientation|screenSize|uiMode" />
+137-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:36:13-81
+138        <activity
+138-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:37:9-40:87
+139            android:name="com.applovin.mediation.MaxDebuggerActivity"
+139-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:38:13-70
+140            android:configChanges="keyboardHidden|orientation|screenSize"
+140-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:39:13-74
+141            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+141-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:40:13-84
+142        <activity
+142-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:41:9-44:87
+143            android:name="com.applovin.mediation.MaxDebuggerDetailActivity"
+143-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:42:13-76
+144            android:configChanges="keyboardHidden|orientation|screenSize"
+144-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:43:13-74
+145            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+145-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:44:13-84
+146        <activity
+146-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:45:9-48:87
+147            android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity"
+147-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:46:13-77
+148            android:configChanges="keyboardHidden|orientation|screenSize"
+148-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:47:13-74
+149            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+149-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:48:13-84
+150        <activity
+150-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:49:9-52:87
+151            android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity"
+151-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:50:13-81
+152            android:configChanges="keyboardHidden|orientation|screenSize"
+152-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:51:13-74
+153            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+153-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:52:13-84
+154        <activity
+154-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:53:9-56:87
+155            android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"
+155-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:54:13-82
+156            android:configChanges="keyboardHidden|orientation|screenSize"
+156-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:55:13-74
+157            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+157-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:56:13-84
+158        <activity
+158-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:57:9-60:87
+159            android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"
+159-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:58:13-85
+160            android:configChanges="keyboardHidden|orientation|screenSize"
+160-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:59:13-74
+161            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+161-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:60:13-84
+162
+163        <service
+163-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:62:9-65:44
+164            android:name="com.applovin.impl.sdk.utils.AppKilledService"
+164-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:63:13-72
+165            android:exported="false"
+165-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:64:13-37
+166            android:stopWithTask="false" />
+166-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:65:13-41
+167        <service
+167-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:66:9-69:44
+168            android:name="com.applovin.impl.adview.activity.FullscreenAdService"
+168-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:67:13-81
+169            android:exported="false"
+169-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:68:13-37
+170            android:stopWithTask="false" />
+170-->[com.applovin:applovin-sdk:10.3.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3506d7223065c67357742fdd9f1223b5/applovin-sdk-10.3.1/AndroidManifest.xml:69:13-41
+171
+172        <provider
+172-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:24:9-27:40
+173            android:name="com.startapp.sdk.adsbase.StartAppInitProvider"
+173-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:25:13-73
+174            android:authorities="com.aliendroid.samplealienads.startappinitprovider"
+174-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:26:13-72
+175            android:exported="false" />
+175-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:27:13-37
+176
+177        <activity
+177-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:29:9-32:64
+178            android:name="com.startapp.sdk.adsbase.consent.ConsentActivity"
+178-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:30:13-76
+179            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+179-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:31:13-87
+180            android:theme="@android:style/Theme.Translucent" />
+180-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:32:13-61
+181        <activity
+181-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:33:9-35:52
+182            android:name="com.startapp.sdk.ads.list3d.List3DActivity"
+182-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:34:13-70
+183            android:theme="@android:style/Theme" />
+183-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:35:13-49
+184        <activity
+184-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:36:9-39:64
+185            android:name="com.startapp.sdk.ads.interstitials.OverlayActivity"
+185-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:37:13-78
+186            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+186-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:38:13-87
+187            android:theme="@android:style/Theme.Translucent" />
+187-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:39:13-61
+188
+189        <service android:name="com.startapp.sdk.cachedservice.BackgroundService" />
+189-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:41:9-84
+189-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:41:18-81
+190        <service
+190-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:42:9-44:72
+191            android:name="com.startapp.sdk.jobs.SchedulerService"
+191-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:43:13-66
+192            android:permission="android.permission.BIND_JOB_SERVICE" />
+192-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:44:13-69
+193
+194        <receiver
+194-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:46:9-52:20
+195            android:name="com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener"
+195-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:47:13-86
+196            android:exported="true" >
+196-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:48:13-36
+197            <intent-filter>
+197-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:49:13-51:29
+198                <action android:name="android.intent.action.BOOT_COMPLETED" />
+198-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:50:17-79
+198-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:50:25-76
+199            </intent-filter>
+200        </receiver> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+201        <activity
+201-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:48:9-52:64
+202            android:name="com.google.android.gms.ads.AdActivity"
+202-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:49:13-65
+203            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+203-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:50:13-122
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:51:13-37
+205            android:theme="@android:style/Theme.Translucent" />
+205-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:52:13-61
+206
+207        <provider
+207-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:54:9-58:39
+208            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+208-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:55:13-76
+209            android:authorities="com.aliendroid.samplealienads.mobileadsinitprovider"
+209-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:56:13-73
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:57:13-37
+211            android:initOrder="100" />
+211-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:58:13-36
+212
+213        <service
+213-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:60:9-63:40
+214            android:name="com.google.android.gms.ads.AdService"
+214-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:61:13-64
+215            android:enabled="true"
+215-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:62:13-35
+216            android:exported="false" />
+216-->[com.google.android.gms:play-services-ads-lite:20.2.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/3efee3724a80833cf9df1f136c81776c/play-services-ads-lite-20.2.0/AndroidManifest.xml:63:13-37
+217
+218        <provider
+218-->[com.facebook.android:audience-network-sdk:6.5.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d4bc8e802121d3cc4b595b9dee82c7aa/audience-network-sdk-6.5.1/AndroidManifest.xml:25:9-28:40
+219            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+219-->[com.facebook.android:audience-network-sdk:6.5.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d4bc8e802121d3cc4b595b9dee82c7aa/audience-network-sdk-6.5.1/AndroidManifest.xml:26:13-75
+220            android:authorities="com.aliendroid.samplealienads.AudienceNetworkContentProvider"
+220-->[com.facebook.android:audience-network-sdk:6.5.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d4bc8e802121d3cc4b595b9dee82c7aa/audience-network-sdk-6.5.1/AndroidManifest.xml:27:13-82
+221            android:exported="false" />
+221-->[com.facebook.android:audience-network-sdk:6.5.1] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d4bc8e802121d3cc4b595b9dee82c7aa/audience-network-sdk-6.5.1/AndroidManifest.xml:28:13-37
+222
+223        <meta-data
+223-->[com.google.android.gms:play-services-basement:17.6.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/a6f68bc745b99d11a6f813cffd02856e/play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+224            android:name="com.google.android.gms.version"
+224-->[com.google.android.gms:play-services-basement:17.6.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/a6f68bc745b99d11a6f813cffd02856e/play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+225            android:value="@integer/google_play_services_version" />
+225-->[com.google.android.gms:play-services-basement:17.6.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/a6f68bc745b99d11a6f813cffd02856e/play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+226
+227        <provider
+227-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:30:9-36:35
+228            android:name="androidx.work.impl.WorkManagerInitializer"
+228-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:31:13-69
+229            android:authorities="com.aliendroid.samplealienads.workmanager-init"
+229-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:32:13-68
+230            android:directBootAware="false"
+230-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:33:13-44
+231            android:exported="false"
+231-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:34:13-37
+232            android:multiprocess="true" />
+232-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:35:13-40
+233
+234        <service
+234-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:38:9-43:35
+235            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+235-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:39:13-88
+236            android:directBootAware="false"
+236-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:40:13-44
+237            android:enabled="@bool/enable_system_alarm_service_default"
+237-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:41:13-72
+238            android:exported="false" />
+238-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:42:13-37
+239        <service
+239-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:44:9-50:35
+240            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+240-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:45:13-84
+241            android:directBootAware="false"
+241-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:46:13-44
+242            android:enabled="@bool/enable_system_job_service_default"
+242-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:47:13-70
+243            android:exported="true"
+243-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:48:13-36
+244            android:permission="android.permission.BIND_JOB_SERVICE" />
+244-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:49:13-69
+245
+246        <receiver
+246-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:52:9-57:35
+247            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+247-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:53:13-88
+248            android:directBootAware="false"
+248-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:54:13-44
+249            android:enabled="true"
+249-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:55:13-35
+250            android:exported="false" />
+250-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:56:13-37
+251        <receiver
+251-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:58:9-68:20
+252            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+252-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:59:13-106
+253            android:directBootAware="false"
+253-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:60:13-44
+254            android:enabled="false"
+254-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:61:13-36
+255            android:exported="false" >
+255-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:62:13-37
+256            <intent-filter>
+256-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:64:13-67:29
+257                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+257-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:65:17-87
+257-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:65:25-84
+258                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+258-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:66:17-90
+258-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:66:25-87
+259            </intent-filter>
+260        </receiver>
+261        <receiver
+261-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:69:9-79:20
+262            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+262-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:70:13-104
+263            android:directBootAware="false"
+263-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:71:13-44
+264            android:enabled="false"
+264-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:72:13-36
+265            android:exported="false" >
+265-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:73:13-37
+266            <intent-filter>
+266-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:75:13-78:29
+267                <action android:name="android.intent.action.BATTERY_OKAY" />
+267-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:76:17-77
+267-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:76:25-74
+268                <action android:name="android.intent.action.BATTERY_LOW" />
+268-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:77:17-76
+268-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:77:25-73
+269            </intent-filter>
+270        </receiver>
+271        <receiver
+271-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:80:9-90:20
+272            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+272-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:81:13-104
+273            android:directBootAware="false"
+273-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:82:13-44
+274            android:enabled="false"
+274-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:83:13-36
+275            android:exported="false" >
+275-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:84:13-37
+276            <intent-filter>
+276-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:86:13-89:29
+277                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+277-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:87:17-83
+277-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:87:25-80
+278                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+278-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:88:17-82
+278-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:88:25-79
+279            </intent-filter>
+280        </receiver>
+281        <receiver
+281-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:91:9-100:20
+282            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+282-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:92:13-103
+283            android:directBootAware="false"
+283-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:93:13-44
+284            android:enabled="false"
+284-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:94:13-36
+285            android:exported="false" >
+285-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:95:13-37
+286            <intent-filter>
+286-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:97:13-99:29
+287                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+287-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+287-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+288            </intent-filter>
+289        </receiver>
+290        <receiver
+290-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:101:9-112:20
+291            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+291-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:102:13-88
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:103:13-44
+293            android:enabled="false"
+293-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:104:13-36
+294            android:exported="false" >
+294-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:105:13-37
+295            <intent-filter>
+295-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:107:13-111:29
+296                <action android:name="android.intent.action.BOOT_COMPLETED" />
+296-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:50:17-79
+296-->[com.startapp:inapp-sdk:4.8.10] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/ffce80db995e7240075375d80ff76ab1/inapp-sdk-4.8.10/AndroidManifest.xml:50:25-76
+297                <action android:name="android.intent.action.TIME_SET" />
+297-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:109:17-73
+297-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:109:25-70
+298                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+298-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:110:17-81
+298-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:110:25-78
+299            </intent-filter>
+300        </receiver>
+301        <receiver
+301-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:113:9-122:20
+302            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+302-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:114:13-99
+303            android:directBootAware="false"
+303-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:115:13-44
+304            android:enabled="@bool/enable_system_alarm_service_default"
+304-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:116:13-72
+305            android:exported="false" >
+305-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:117:13-37
+306            <intent-filter>
+306-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:119:13-121:29
+307                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+307-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:120:17-98
+307-->[androidx.work:work-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/f540d913a38a8713a9f9da78693ceecc/work-runtime-2.1.0/AndroidManifest.xml:120:25-95
+308            </intent-filter>
+309        </receiver>
+310
+311        <service
+311-->[androidx.room:room-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d13db8c1fb35de54e715fc498bb77d3f/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+312            android:name="androidx.room.MultiInstanceInvalidationService"
+312-->[androidx.room:room-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d13db8c1fb35de54e715fc498bb77d3f/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+313            android:exported="false" />
+313-->[androidx.room:room-runtime:2.1.0] /home/aliendroid/.gradle/caches/transforms-2/files-2.1/d13db8c1fb35de54e715fc498bb77d3f/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+314    </application>
+315
+316</manifest>

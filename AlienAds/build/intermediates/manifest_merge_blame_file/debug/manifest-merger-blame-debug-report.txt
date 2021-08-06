@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.aliendroid.alienads" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="19"
+7-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="31" />
+8-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:6:5-67
+10-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:6:22-64
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:7:5-79
+11-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:7:22-76
+12
+13    <application>
+13-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:9:5-30:19
+14        <activity
+14-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:11:9-14:50
+15            android:name="com.ironsource.sdk.controller.ControllerActivity"
+15-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:12:13-76
+16            android:configChanges="orientation|screenSize"
+16-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:13:13-59
+17            android:hardwareAccelerated="true" />
+17-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:14:13-47
+18        <activity
+18-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:15:9-19:64
+19            android:name="com.ironsource.sdk.controller.InterstitialActivity"
+19-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:16:13-78
+20            android:configChanges="orientation|screenSize"
+20-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:17:13-59
+21            android:hardwareAccelerated="true"
+21-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:18:13-47
+22            android:theme="@android:style/Theme.Translucent" />
+22-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:19:13-61
+23        <activity
+23-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:20:9-24:64
+24            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
+24-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:21:13-73
+25            android:configChanges="orientation|screenSize"
+25-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:22:13-59
+26            android:hardwareAccelerated="true"
+26-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:23:13-47
+27            android:theme="@android:style/Theme.Translucent" />
+27-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:24:13-61
+28
+29        <provider
+29-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:25:9-27:83
+30            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider"
+30-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:27:13-80
+31            android:authorities="${applicationId}.IronsourceLifecycleProvider" />
+31-->/home/aliendroid/AndroidStudioProjects/SampleAlienAds/AlienAds/src/main/AndroidManifest.xml:26:13-79
+32    </application>
+33
+34</manifest>
